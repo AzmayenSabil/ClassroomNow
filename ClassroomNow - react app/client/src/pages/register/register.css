@@ -1,0 +1,99 @@
+h1 {
+  font-size: 50px;
+  /* background: -webkit-linear-gradient( #3282B8, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: #c3e5ef ;
+}
+
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(38, 53, 185, 0.5),
+      rgba(2, 58, 39, 0.5)
+    ),
+    url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  font-size: 20px;
+  
+}
+
+.registerTitle {
+  /* font-size: 20px; */
+  font-weight: 700;
+}
+
+.registerForm {
+  margin-top: 20px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  background-color: #b2c6e1;
+  width:500px ;
+  align-items: center;
+  color: #364F6B;
+  text-shadow: blueviolet;
+  flood-color: blue;
+  font-weight: 1000;
+  padding: 32px;
+  border-radius: 10px;
+}
+.temp{
+  display: flex;
+  justify-content: space-around;
+}
+
+.reg-label-holder{
+  padding-top: 20px;
+}
+
+.reg-btn-div{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.role-select{
+  width: 100px !important;
+}
+
+.registerForm > label {
+  margin: 10px 0;
+}
+
+.registerInput {
+  padding: 10px;
+  background-color: white;
+  border: 0;
+  border-radius: 5px;
+}
+
+.registerInput:focus {
+  outline: none;
+}
+
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.registerLoginButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: lightcoral;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
