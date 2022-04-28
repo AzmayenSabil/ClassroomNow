@@ -1,4 +1,4 @@
-#APPLICATION NAME: **ClassroonNow**
+# APPLICATION NAME: **ClassroonNow**
 
 ## TECHNOLOGIES:
     #### REACT and REACT NATIVE (for mobile app)
